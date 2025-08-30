@@ -11,10 +11,11 @@ import java.util.*;
                 for (int i = 0; i < 100; i++) {
                     output.writeInt(rand.nextInt(1000));
                 }
-                System.out.println("100 random integers written to Lab08_02.dat (binary)");
+                System.out.println("100 random integers written to File2.dat (binary)");
             } catch (IOException e) {
                 e.printStackTrace();
             }
         }
     }
+
 
