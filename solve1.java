@@ -11,10 +11,11 @@ import java.util.*;
                     output.print(rand.nextInt(1000) + " "); // random integer 0-999
                 }
                 output.println(); // new line after writing
-                System.out.println("100 random integers written to Lab08_01.txt");
+                System.out.println("100 random integers written to solve1.txt");
             } catch (IOException e) {
                 e.printStackTrace();
             }
         }
     }
+
 
