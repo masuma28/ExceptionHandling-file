@@ -12,10 +12,11 @@ import java.io.*;
                 while ((line = reader.readLine()) != null) {
                     writer.writeUTF(line); // UTF-8 string
                 }
-                System.out.println("Lines written into Lab08_03.dat as UTF-8.");
+                System.out.println("Lines written into File4.dat as UTF-8.");
             } catch (IOException e) {
                 e.printStackTrace();
             }
         }
     }
+
 
