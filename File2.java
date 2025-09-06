@@ -4,7 +4,7 @@ import java.util.*;
 
     public class File2 {
         public static void main(String[] args) {
-            File file = new File("Lab08_01.dat");
+            File file = new File("Lab08_02.dat");
             Random rand = new Random();
 
             try (DataOutputStream output = new DataOutputStream(new BufferedOutputStream(new FileOutputStream(file, true)))) {
@@ -17,6 +17,7 @@ import java.util.*;
             }
         }
     }
+
 
 
 
