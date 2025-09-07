@@ -2,7 +2,7 @@ import java.io.*;
 
     public class File3 {
         public static void main(String[] args) {
-            File inputFile = new File("input.txt");   // You should create input.txt manually
+            File inputFile = new File("input.txt");   // create input.txt manually
             File outputFile = new File("File3.dat");
 
             try (BufferedReader reader = new BufferedReader(new FileReader(inputFile));
@@ -18,5 +18,6 @@ import java.io.*;
             }
         }
     }
+
 
 
