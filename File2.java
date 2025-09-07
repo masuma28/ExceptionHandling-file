@@ -2,7 +2,7 @@
     import java.io.*;
 import java.util.*;
 
-    public class File2 {
+    public class Lab08_02 {
         public static void main(String[] args) {
             File file = new File("Lab08_02.dat");
             Random rand = new Random();
@@ -17,6 +17,7 @@ import java.util.*;
             }
         }
     }
+
 
 
 
